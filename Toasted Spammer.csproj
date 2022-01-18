@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{61403D95-0675-461F-8B44-308FEE51BC95}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>R6S_Chat_Spammer</RootNamespace>
-    <AssemblyName>R6S Chat Spammer</AssemblyName>
+    <RootNamespace>Toasted_Spammer</RootNamespace>
+    <AssemblyName>Toasted Spammer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -30,6 +30,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>703-7030779_cartoon-piece-of-toast-png-download-toast-transparent-removebg-preview %281%29.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
@@ -71,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include=".editorconfig" />
     <None Include="HotkeyLib\HotkeyLib.csproj" />
@@ -99,6 +103,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="703-7030779_cartoon-piece-of-toast-png-download-toast-transparent-removebg-preview %281%29.ico" />
     <Content Include="HotkeyLib\bin\Debug\HotkeyLib.dll" />
     <Content Include="HotkeyLib\bin\Debug\HotkeyLib.pdb" />
     <Content Include="HotkeyLib\obj\Debug\HotkeyLib.csproj.FileListAbsolute.txt" />
