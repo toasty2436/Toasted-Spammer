@@ -55,6 +55,9 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HotkeyLib\Constants.cs" />
+    <Compile Include="HotkeyLib\GlobalHotkey.cs" />
+    <Compile Include="HotkeyLib\Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -69,6 +72,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include=".editorconfig" />
+    <None Include="HotkeyLib\HotkeyLib.csproj" />
+    <None Include="HotkeyLib\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="HotkeyLib\obj\Debug\HotkeyLib.csproj.CoreCompileInputs.cache" />
+    <None Include="HotkeyLib\obj\Debug\HotkeyLib.csprojResolveAssemblyReference.cache" />
+    <None Include="HotkeyLib\obj\Release\HotkeyLib.csproj.CoreCompileInputs.cache" />
+    <None Include="HotkeyLib\obj\Release\HotkeyLib.csprojResolveAssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,6 +97,13 @@
       <Project>{09823da8-c587-4363-95f1-cd99f4d0a678}</Project>
       <Name>HotkeyLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HotkeyLib\bin\Debug\HotkeyLib.dll" />
+    <Content Include="HotkeyLib\bin\Debug\HotkeyLib.pdb" />
+    <Content Include="HotkeyLib\obj\Debug\HotkeyLib.csproj.FileListAbsolute.txt" />
+    <Content Include="HotkeyLib\obj\Debug\HotkeyLib.dll" />
+    <Content Include="HotkeyLib\obj\Debug\HotkeyLib.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
