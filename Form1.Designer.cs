@@ -152,7 +152,7 @@
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
-            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label7.Name = "label7";
             // 
             // label2
